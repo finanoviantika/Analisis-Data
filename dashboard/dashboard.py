@@ -104,7 +104,7 @@ def analyze_rfm_segmentation(df):
 # Load Data
 # =========================
 try:
-    df = pd.read_csv("main_data.csv")
+    df = pd.read_csv("dashboard/main_data.csv")
     datetime_cols = [
         'order_purchase_timestamp', 'order_approved_at',
         'order_delivered_carrier_date', 'order_delivered_customer_date',
